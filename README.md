@@ -6,7 +6,7 @@ This Chrome extension redirects links from `baiscope.lk` to their corresponding 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://your-github-username/baiscope-download-redirector.git
+    git clone https://github.com/LakSK98/baiscopelk-chrome-extension.git
     ```
 
 2. **Load the Extension:**
