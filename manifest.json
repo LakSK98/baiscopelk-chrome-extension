@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "BaiscopeLK Redirector",
+  "version": "1.0",
+  "description": "Redirects URLs into BaiscopeDownloads.link",
+  "action": { 
+    "default_icon": {
+      "16": "images/image16.png",
+      "48": "images/image48.png",
+      "128": "images/image128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/image16.png",
+    "48": "images/image48.png",
+    "128": "images/image128.png"
+  },
+  "permissions": [
+	"tabs"
+  ]
+}
