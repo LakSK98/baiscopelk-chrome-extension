@@ -8,7 +8,6 @@ This Chrome extension redirects links from `baiscope.lk` to their corresponding 
     ```bash
     git clone https://your-github-username/baiscope-download-redirector.git
     ```
-   Use code with caution. Replace `https://your-github-username/baiscope-download-redirector.git` with the actual URL of your Git repository.
 
 2. **Load the Extension:**
     - Open Chrome and navigate to `chrome://extensions/`.
@@ -17,7 +16,7 @@ This Chrome extension redirects links from `baiscope.lk` to their corresponding 
 
 ## How it Works
 
-The extension utilizes the Chrome WebExtension API's `webRequest` listener to intercept requests to `baiscopedownload.link` domains. When a matching request is detected, the extension rewrites the URL to point to the corresponding page on `baiscope.lk` before the request is sent.
+The extension utilizes the Chrome WebExtension API's `webRequest` listener to intercept requests to `baiscope.lk` domains. When a matching request is detected, the extension rewrites the URL to point to the corresponding page on `baiscopedownload.link` before the request is sent.
 
 ## Disclaimer
 
@@ -26,7 +25,7 @@ The extension utilizes the Chrome WebExtension API's `webRequest` listener to in
 
 ## Development
 
-Feel free to modify the extension's behavior by editing the JavaScript files within the `src` directory. You can test your changes by reloading the extension in Chrome's extensions settings.
+Feel free to modify the extension's behavior by editing the JavaScript files within the directory. You can test your changes by reloading the extension in Chrome's extensions settings.
 
 ## Additional Notes
 
